@@ -431,11 +431,6 @@ plt.plot(fit_history.history['val_binary_accuracy'] )
 
 
 
-    [<matplotlib.lines.Line2D at 0x2c9da7430>]
-
-
-
-
     
 ![png](output_32_1.png)
     
@@ -491,8 +486,6 @@ RocCurveDisplay.from_predictions(
 
 
 
-    <sklearn.metrics._plot.roc_curve.RocCurveDisplay at 0x2b90257e0>
-
 
 
 
@@ -515,8 +508,6 @@ ConfusionMatrixDisplay.from_predictions(
 
 
 
-
-    <sklearn.metrics._plot.confusion_matrix.ConfusionMatrixDisplay at 0x2b8fb80a0>
 
 
 
