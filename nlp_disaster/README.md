@@ -1020,7 +1020,8 @@ ax.set_title('AUC',size=30)
 ![png](Images/output_94_1.png)
     
 
-
+The best architechture and word embedding found was the LSTM and word 2 vec. This model achieved a vey superior score than the random forest, but can probably be improved considerably using cross-validation. Let's now do an hyperparameter search in order to see if we can achieve better results.
+ 
 ### Model refinement
 
 callbacks
