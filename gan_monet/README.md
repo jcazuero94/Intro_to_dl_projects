@@ -122,7 +122,7 @@ plt.subplot(122)
 plt.title('Monet')
 plt.imshow(example_monet[0] * 0.5 + 0.5)
 ```
-
+![Img1](Img1)
 ## Modelling
 
 For the model architechture a CycleGAN (<a href="https://arxiv.org/abs/1703.10593">original paper</a>) was selected because it achieves state of the art perfonce in image translation tasks. The CycleGAN implementation in this notebook is based on the <a href="https://keras.io/examples/generative/cyclegan/">code example of the keras library</a> which follows the 2017 paper. <br>
@@ -569,6 +569,7 @@ cycle_gan_model.fit(
     callbacks=[plotter],
 )
 ```
+![Img2](Img2)
 
 As the pictures show, the images seem to have a little of Monet's style, but still has a lot to improve.
 
